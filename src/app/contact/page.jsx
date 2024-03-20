@@ -50,7 +50,7 @@ const ContactPage = () => {
           <div className=" flex  justify-between w-full items-end">
             <div className="flex flex-col w-2/3 gap-5  mb-3 items-start justify-start">
               <h1 className="text-7xl text-white font-medium  ">
-                Let's start a{" "}
+                Let&apos;s start a{" "}
               </h1>
               <h1 className="text-7xl text-white font-medium">
                 project together
@@ -79,7 +79,7 @@ const ContactPage = () => {
                       01
                     </h1>
                     <h1 className="text-[grey] text-2xl font-medium opacity-[0.33]">
-                      What's your name?
+                      What&apos;s your name?
                     </h1>
                   </div>
 
@@ -95,7 +95,7 @@ const ContactPage = () => {
                       02
                     </h1>
                     <h1 className="text-[grey] text-2xl font-medium opacity-[0.33]">
-                      What's your email?
+                      What&apos;s your email?
                     </h1>
                   </div>
 

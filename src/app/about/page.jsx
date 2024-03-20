@@ -45,7 +45,7 @@ const AboutPage = () => {
             </p>
             {/* Biography Quote */}
             <span className="italic">
-              Let's collaborate to transform ideas into innovative solutions.
+              Let&apos;s collaborate to transform ideas into innovative solutions.
             </span>
             {/* Biography Sign svg */}
             <div className=""></div>

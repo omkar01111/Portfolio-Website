@@ -19,7 +19,7 @@ const Footer = () => {
               src="/profileimg.png"
               alt=""
             />
-            <h1 className="text-7xl text-white font-medium  ">Let's Work </h1>
+            <h1 className="text-7xl text-white font-medium  ">Let&apos;s Work </h1>
           </div>
           <h1 className="text-7xl text-white font-medium">together</h1>
         </div>

@@ -3,7 +3,7 @@
 import { GrLanguage } from "react-icons/gr";
 import { FiArrowDownRight } from "react-icons/fi";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import "./styles/home.css";
 import RecentWork from "@/components/RecentWork";
 import Footer from "@/components/Footer";
@@ -11,9 +11,16 @@ import Navbar from "@/components/Navbar";
 import Link from "next/link";
 
 const Homepage = () => {
-  alert(
-    "Please note that this website is still under development. For the best viewing experience, I recommend view it on a desktop."
-  );
+  useEffect(() => {
+    alertMessage();
+  }, []);
+
+  const alertMessage = () => {
+    if (typeof window !== 'undefined') {
+      // Code that uses alert
+      alert('Please note that this website is still under development. For the best viewing experience, I recommend viewing it on a desktop.');
+    }
+  };
   const { scrollYProgress } = useScroll();
   const x = useTransform(scrollYProgress, [0, 1], [0, 600]);
 
