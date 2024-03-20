@@ -17,6 +17,7 @@ const Footer = () => {
             <img
               className="rounded-full w-[80px] h-[80px] object-cover bg-[#999d9e]  "
               src="/profileimg.png"
+              
               alt=""
             />
             <h1 className="text-7xl text-white font-medium  ">Let&apos;s Work </h1>
